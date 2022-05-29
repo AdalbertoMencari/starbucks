@@ -134,6 +134,7 @@ section.sobre{
       }
       
       .texto-sobre{width: 95%;
+           margin-left: 10px;
       
     
     }
@@ -156,6 +157,7 @@ section.sobre{
 .logo>img{
 
     width: 32%;
+    margin-left: 10px;
 }
   
 
