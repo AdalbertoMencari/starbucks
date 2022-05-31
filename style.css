@@ -194,11 +194,14 @@ section.sobre{
 
   
 
+
 @media only screen and (orientation:landscape) and (max-width:850px){
     body {
-      height: 100vw;
+      height: 100vh;
+      width: 100vw;
+
       
-      transform: rotate(90deg);
+     
       
     }
 
@@ -221,14 +224,22 @@ section.sobre{
     
     }
    
-    .texto-sobre p {width: 70%;
+    .texto-sobre>p {width: 95%;
         margin-left: 10px;
+        font-size: small;
      
       
     
     }
 
+    .logo>img{
+
+        width: 26%;
+        margin-left: 10px;
+    }
+      .extras{display: none;}
   }
+
 
 
 
