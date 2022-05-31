@@ -124,7 +124,7 @@ section.sobre{
 
 
 
-@media only screen and (max-width:667px){
+@media only screen and (max-width:667px) and (orientation:portrait){
     
     .extras>img{width: 30%;
       height: 35%;}
