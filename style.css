@@ -197,8 +197,8 @@ section.sobre{
 
 @media only screen and (orientation:landscape) and (max-width:850px){
     body {
-      height: 100vh;
-      width: 100vw;
+      height: 100vw;
+      
 
       
      
@@ -216,7 +216,7 @@ section.sobre{
       
        
         position: absolute;
-        right: 110px;
+        right: 55px;
        
         
        
@@ -234,7 +234,7 @@ section.sobre{
 
     .logo>img{
 
-        width: 26%;
+        width: 22%;
         margin-left: 10px;
     }
       .extras{display: none;}
