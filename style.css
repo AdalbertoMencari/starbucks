@@ -100,13 +100,14 @@ section.sobre{
     
  
 
-    .extras { position: relative;
+    .extras { position: absolute;
         bottom:-775px;
-        right:-800px;
+        right:-750px;
         width: 1200px;
         height: 1220px;
         border-radius: 50%;
         background-color: #006341;
+        
         
         
     }
@@ -134,7 +135,7 @@ section.sobre{
       }
       
       .texto-sobre{width: 95%;
-           margin-left: 10px;
+        margin-left: 10px;
       
     
     }
@@ -147,8 +148,9 @@ section.sobre{
 
       
       font-size: 20px;
+     
         
-    
+      
     
        } 
 
@@ -192,13 +194,9 @@ section.sobre{
 
 }
 
-  
-
 
 @media only screen and (orientation:landscape) and (max-width:850px){
-  
-      
-
+    
       
      
       
@@ -215,7 +213,7 @@ section.sobre{
       
        
         position: absolute;
-        right: 55px;
+        right: 25px;
        
         
        
@@ -233,11 +231,13 @@ section.sobre{
 
     .logo>img{
 
-        width: 22%;
+        width: 26%;
         margin-left: 10px;
     }
       .extras{display: none;}
-  
+}
+
+
 
 
 .texto-sobre{
@@ -335,6 +335,3 @@ section.sobre{
 
                 
         }
-       
-        
-       
