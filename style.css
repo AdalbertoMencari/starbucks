@@ -213,7 +213,7 @@ section.sobre{
       
        
         position: absolute;
-        right: 25px;
+        right: 0px;
        
         
        
@@ -224,17 +224,25 @@ section.sobre{
     .texto-sobre>p {width: 95%;
         margin-left: 10px;
         font-size: small;
+       
      
       
     
     }
+   .logo>img{
 
-    .logo>img{
-
-        width: 26%;
+        width: 20%;
         margin-left: 10px;
     }
       .extras{display: none;}
+
+      .texto-sobre h1{
+
+        margin-top: -250px;
+        
+
+      }
+      
 }
 
 
@@ -335,3 +343,6 @@ section.sobre{
 
                 
         }
+       
+        
+       
